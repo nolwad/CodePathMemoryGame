@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Button Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>Button Memory Game</h1>
+
+    <p>
+      Watch and listen to the order shown on screen.
+      Simply press the buttons in the order they are shown.
+    </p>
+    <p>
+      Press start to play!
+    </p>
+    
+    <div class = "hidden" id="winGame">
+      <img src = "https://cdn.glitch.global/df1cdf28-88f5-424f-9b89-5cef7c2a65c3/wingif.gif?v=1648860933107"
+      width = "200"
+      height = "200"/>  
+    </div>
+    
+    <div  class = "hidden" id="loseGame">
+      <img src = "https://cdn.glitch.global/df1cdf28-88f5-424f-9b89-5cef7c2a65c3/lose2.gif?v=1648860830185"
+           width = "200"
+           height = "200"/>
+    </div>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
+
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+  </body>
+</html>
