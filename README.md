@@ -38,19 +38,18 @@ The following **additional** features are implemented:
 - [x] After the game ends, a winning or losing if appears, depending on the result.
 
 ## Video Walkthrough (GIF)
-
-If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+If you recorded multiple GIFs for all the implemented featurss, you can add them here:
+![gifgif1](https://user-images.githubusercontent.com/65985935/163764584-7f497df4-a696-4fa3-a20a-d3cdd159ce16.gif)
+![gifgif2](https://user-images.githubusercontent.com/65985935/163764594-d25f30df-c171-43d0-ace4-182874e801d9.gif)
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
+
    I used Mozilla's Javascript documentation for help with loops and syntax.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+
    The toughest challenge that I faced in this project was allowing the user to choose the length of the sequence, and having the be randomized.
    I had trouble initially even getting the pop-up to ask for user input, but after that I ran into a handful of snags.
    For one, getting my function that randomizes the sequence to depend on the number chosen by the player was difficult, because I kept running into issues with randomizing decimals, rather than integers. I found help for that on the Mozilla documentation.
@@ -60,11 +59,13 @@ If you recorded multiple GIFs for all the implemented features, you can add them
    Things got even trickier when I thought that my code worked, but in testing realized that each time the player restarted the game the new sequence of buttons was being added to the previous list of numbers. Just using my experience with python, I knew to change where I had the series initialized to an empty list, but I wasn't testing the project correctly, as I was using the refresh button to clean up the console.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
+
    I would like to know how websites with more functionality are made. I have some knowledge of Angular, and know how React or other framewares would help, but I still don't know how an entire website could be made.
    I also wanted to try to mess around with making my project open other tabs on the page, but that was out of my depth almost immediately. I remember a little from trying to learn html a few years back, but I don't remember and I remember it being much sloppier than websites that I use daily.
    What exactly are the benefits to coding a website instead of using a website creator, such as wix? In my mind, I think that they would lack specialized functionalities, but for a basic website or a forum, or even stores they seem like they are easier and faster than coding.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)
+
    If I had more time to work on this project I'd try to make it prettier like a website that I would go to. I'd also try to get the game winning and game losing gifs onto the popup, rather than showing up on the page afterwards.
    As for functionality, I'd try to make it so that the user can only input a natural number, or that it would at least reprompt them to. I also would have liked to include a slider for speed, and a score counter, which would display a user's highest score.
    There's a few small things that I thought about implementing as well, but felt like were 'take it or leave it' functionalities, that I wouldn't miss not being there, such as a little tune for winning and another for losing.
@@ -72,7 +73,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://youtu.be/fjef0GixKdM)
 
 ## License
 
